@@ -21,6 +21,8 @@ function App() {
     { url: './assets/images/zakaria-zayane-bike.jpg', alt: "bmw" }
   ]
 
+
+
   return (
 
     /*<div>
@@ -34,6 +36,7 @@ function App() {
     </div>*/
 
     <>
+
       <NavBar></NavBar>
       <section className="custom-container" style={{ backgroundImage: `url(${Image})` }}>
         <div className="text-container">
@@ -43,15 +46,17 @@ function App() {
         </div>
       </section>
 
-     <div className="d-flex justify-content-center align-items-start gap-4 p-4">
-    <div className="p-4 bg-white rounded shadow" id="bike-form" style={{ flex: 1 }}>
-      <Form />
-    </div>
-    <div className="p-4 bg-white rounded shadow" style={{ flex: 1 }}>
-      <ControlledCarousel />
-    </div>
-  </div>
-
+      <div className="d-flex justify-content-center align-items-start gap-4 p-4">
+        <div className="p-4 bg-white rounded shadow" id="bike-form" style={{ flex: 1 }}>
+          <Form />
+        </div>
+        <div className="p-4 bg-white rounded shadow" style={{ flex: 1 }}>
+          <ControlledCarousel />
+        </div>
+      </div>
+        <Routes>
+          <Route path='/results' element={<Favorite />} />
+        </Routes>
 
     </>
 
