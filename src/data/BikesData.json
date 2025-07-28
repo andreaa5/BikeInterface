@@ -1,0 +1,114 @@
+[
+  {
+    "name": "KTM 390 Adventure R",
+    "type": "adventure",
+    "experience": "beginner",
+    "price": 8099,
+    "licence": "A2",
+    "image": "/images/pexels-abhinav-ktmadventure.jpg"
+  },
+  {
+    "name": "Kawasaki z900",
+    "type": "road",
+    "experience": "intermediate",
+    "price": 7449,
+    "licence": "A2",
+    "image": "/images/pairach-boriboonmee-z900.jpg"
+  },
+  {
+    "name": "Kawasaki Ninja 500 SE",
+    "type": "sport",
+    "experience": "intermediate",
+    "price": 7599,
+    "licence": "A2",
+    "image": "/images/joao-pedro-sconetto-kawasaki500.jpg"
+  },
+  {
+    "name": "Kawasaki ZX6R",
+    "type": "sport",
+    "experience": "intermediate",
+    "price": 13399,
+    "licence": "A2",
+    "image": "/images/pairach-boriboonmee-bike.jpg"
+  },
+  {
+    "name": "Yamaha MT-10",
+    "type": "road",
+    "experience": "advanced",
+    "price": 19899,
+    "licence": "A",
+    "image": "/images/josh-marshall-bike.jpg"
+  },
+  {
+    "name": "Yamaha R3",
+    "type": "sport",
+    "experience": "beginner",
+    "price": 7449,
+    "licence": "A2",
+    "image": "/images/roman-zipp-yamahar3.jpg"
+  },
+  {
+    "name": "KTM 390 Duke",
+    "type": "road",
+    "experience": "intermediate",
+    "price": 6999,
+    "licence": "A2",
+    "image": "/images/nandaperin-duke390.jpg"
+  },
+  {
+    "name": "KTM 125 Duke",
+    "type": "road",
+    "experience": "beginner",
+    "price": 5599,
+    "licence": "A1",
+    "image": "/images/pexels-jamphotography-ktm125.jpg"
+  },
+  {
+    "name": "Yamaha R7",
+    "type": "sport",
+    "experience": "intermediate",
+    "price": 10799,
+    "licence": "A2",
+    "image": "/images/herve-papaux-bike.jpg"
+  },
+  {
+    "name": "Honda CBR650R",
+    "type": "sport",
+    "experience": "intermediate",
+    "price": 10790,
+    "licence": "A",
+    "image": "/images/gelmis-bartulis-bike.jpg"
+  },
+  {
+    "name": "Honda CRF1100L Africa Twin",
+    "type": "adventure",
+    "experience": "intermediate",
+    "price": 16990,
+    "licence": "A2",
+    "image": "/images/pexels-hobi-hondaafrica.jpg"
+  },
+  {
+    "name": "KTM 790 Duke",
+    "type": "road",
+    "experience": "intermediate",
+    "price": 10899,
+    "licence": "A",
+    "image": "/images/gijs-coolen--ktm790.jpg"
+  },
+  {
+    "name": "KTM 1390 Super Duke R",
+    "type": "road",
+    "experience": "advanced",
+    "price": 24499,
+    "licence": "A"
+  },
+  {
+    "name": "BMW R 1250 GS",
+    "type": "adventure",
+    "experience": "advanced",
+    "price": 21480,
+    "licence": "A"
+  }
+
+ 
+]

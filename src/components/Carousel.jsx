@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import Honda from '../assets/images/gelmis-bartulis-bike.jpg';
-import Yamaha from '../assets/images/josh-marshall-bike.jpg';
-import Kawasaki from '../assets/images/pairach-boriboonmee-bike.jpg'; 
-import KTM from '../assets/images/vaclav-pechar-bike.jpg'; 
-import BMW from '../assets/images/zakaria-zayane-bike.jpg'; 
+import Honda from '/images/gelmis-bartulis-bike.jpg';
+import Yamaha from '/images/josh-marshall-bike.jpg';
+import Kawasaki from '/images/pairach-boriboonmee-bike.jpg'; 
+import KTM from '/images/vaclav-pechar-bike.jpg'; 
+import BMW from '/images/zakaria-zayane-bike.jpg'; 
 
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);
