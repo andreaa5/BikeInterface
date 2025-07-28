@@ -5,6 +5,7 @@ import Yamaha from '/images/josh-marshall-bike.jpg';
 import Kawasaki from '/images/pairach-boriboonmee-bike.jpg'; 
 import KTM from '/images/vaclav-pechar-bike.jpg'; 
 import BMW from '/images/zakaria-zayane-bike.jpg'; 
+import Aprilia from '/images/pexels-entero-aprilia.jpg'; 
 
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);
@@ -44,10 +45,6 @@ function ControlledCarousel() {
         src={Kawasaki}
         alt="Kawasaki bike"
       />
-        {/*<Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>*/}
       </Carousel.Item>
       <Carousel.Item>
         <img
@@ -55,21 +52,13 @@ function ControlledCarousel() {
         src={KTM}
         alt="KTM bike"
       />
-        {/*<Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>*/}
       </Carousel.Item>
       <Carousel.Item>
         <img
         className="d-block w-100"
-        src={BMW}
-        alt="BMW bike"
+        src={Aprilia}
+        alt="Aprilia bike"
       />
-        {/*<Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>*/}
       </Carousel.Item>
     </Carousel>
     </div>
