@@ -5,15 +5,21 @@
     "experience": "beginner",
     "price": 8099,
     "licence": "A2",
+    "displacement": 373.2,
+    "unit": "cm³",
+    "engine": "1-cylinder, 4-stroke",
     "image": "/images/pexels-abhinav-ktmadventure.jpg"
   },
   {
     "name": "Kawasaki z900",
     "type": "road",
     "experience": "intermediate",
-    "price": 7449,
+    "price": 11499,
     "licence": "A2",
-    "image": "/images/pairach-boriboonmee-z900.jpg"
+    "image": "/images/pairach-boriboonmee-z900.jpg",
+    "displacement": 948,
+    "unit":"cm³",
+    "engine": "4-cylinder"
   },
   {
     "name": "Kawasaki Ninja 500 SE",
@@ -21,7 +27,10 @@
     "experience": "intermediate",
     "price": 7599,
     "licence": "A2",
-    "image": "/images/joao-pedro-sconetto-kawasaki500.jpg"
+    "image": "/images/joao-pedro-sconetto-kawasaki500.jpg",
+    "displacement": 451,
+    "unit":"cm³",
+    "engine": "2-cylinder"
   },
   {
     "name": "Kawasaki ZX6R",
@@ -29,7 +38,10 @@
     "experience": "intermediate",
     "price": 13399,
     "licence": "A2",
-    "image": "/images/pairach-boriboonmee-bike.jpg"
+    "image": "/images/pairach-boriboonmee-bike.jpg",
+    "displacement": 636,
+    "unit":"cm³",
+    "engine": "4-cylinder"
   },
   {
     "name": "Yamaha MT-10",
@@ -37,15 +49,21 @@
     "experience": "advanced",
     "price": 19899,
     "licence": "A",
-    "image": "/images/josh-marshall-bike.jpg"
+    "image": "/images/josh-marshall-bike.jpg",
+    "displacement": 998,
+    "unit":"cm³",
+    "engine": "4-cylinders, 4-stroke"
   },
   {
     "name": "Yamaha R3",
     "type": "sport",
     "experience": "beginner",
-    "price": 7449,
+    "price": 6652,
     "licence": "A2",
-    "image": "/images/roman-zipp-yamahar3.jpg"
+    "image": "/images/roman-zipp-yamahar3.jpg",
+    "displacement": 321,
+    "unit":"cm³",
+    "engine": "2-cylinder, 4-stroke"
   },
   {
     "name": "KTM 390 Duke",
@@ -53,7 +71,10 @@
     "experience": "intermediate",
     "price": 6999,
     "licence": "A2",
-    "image": "/images/nandaperin-duke390.jpg"
+    "image": "/images/nandaperin-duke390.jpg",
+    "displacement": 398.7,
+    "unit":"cm³",
+    "engine": "1-cylinder, 4-stroke"
   },
   {
     "name": "KTM 125 Duke",
@@ -61,15 +82,21 @@
     "experience": "beginner",
     "price": 5599,
     "licence": "A1",
-    "image": "/images/pexels-jamphotography-ktm125.jpg"
+    "image": "/images/pexels-jamphotography-ktm125.jpg",
+    "displacement": 124.99,
+    "unit":"cm³",
+    "engine": "1-cylinder, 4-stroke"
   },
   {
     "name": "Yamaha R7",
     "type": "sport",
     "experience": "intermediate",
-    "price": 10799,
+    "price": 8920,
     "licence": "A2",
-    "image": "/images/herve-papaux-bike.jpg"
+    "image": "/images/herve-papaux-bike.jpg",
+    "displacement": 689,
+    "unit":"cm³",
+    "engine": "4-stroke, 4-valves, inline two-cylinder"
   },
   {
     "name": "Honda CBR650R",
@@ -77,7 +104,10 @@
     "experience": "intermediate",
     "price": 10790,
     "licence": "A",
-    "image": "/images/gelmis-bartulis-bike.jpg"
+    "image": "/images/gelmis-bartulis-bike.jpg",
+    "displacement": 649,
+    "unit":"cm³",
+    "engine": "4-cylinders, 4-stroke"
   },
   {
     "name": "Honda CRF1100L Africa Twin",
@@ -85,7 +115,10 @@
     "experience": "intermediate",
     "price": 16990,
     "licence": "A2",
-    "image": "/images/pexels-hobi-hondaafrica.jpg"
+    "image": "/images/pexels-hobi-hondaafrica.jpg",
+    "displacement": 1084,
+    "unit": "cm³",
+    "engine": "2-cylinder, 4-stroke"
   },
   {
     "name": "KTM 790 Duke",
@@ -93,7 +126,10 @@
     "experience": "intermediate",
     "price": 10899,
     "licence": "A",
-    "image": "/images/gijs-coolen--ktm790.jpg"
+    "image": "/images/gijs-coolen--ktm790.jpg",
+    "displacement": 799,
+    "unit":"cm³",
+    "engine": "2-cylinder, 4-stroke"
   },
   {
     "name": "KTM 1390 Super Duke R",
@@ -108,7 +144,16 @@
     "experience": "advanced",
     "price": 21480,
     "licence": "A"
+  },
+  {
+    "name": "KTM 300 EXC ",
+    "type": "motocross",
+    "experience": "advanced",
+    "price": 11899,
+    "licence": "A",
+    "image": "/images/vaclav-pechar-bike.jpg"
   }
+   
 
  
 ]

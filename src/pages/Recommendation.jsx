@@ -2,6 +2,7 @@ import "../css/Recommendation.css"
 import { useLocation } from 'react-router-dom';
 import bikes from '../data/BikesData.json';
 import { Container, Row, Col, Card } from 'react-bootstrap';
+import Image from '/images/uomo-libero-bike.jpg';
 
 
 
@@ -11,10 +12,12 @@ function Recommendation() {
     //const favorites = state.favorites || [];
 
     if (!location.state) {
-        return <Col xs={12} className="results-empty">
-            <h2>No results found</h2>
-            <p>Please fill out the information needed and meet your bike.</p>
-        </Col>
+        return <div className="empty-container">
+            <Col xs={12} className="results-empty">
+                <h2>No results found</h2>
+                <p>Please fill out the information needed and meet your bike.</p>
+            </Col>
+        </div>
     }
 
     const results = bikes.filter(
@@ -25,7 +28,8 @@ function Recommendation() {
     );
 
     return (
-        <Container>
+        <div className="results-page">
+            <Container>
             <Row className="gx-4 gy-4 justify-content-center align-items-center results-container">
                 {results.length > 0 ? (results.map((bike) => (
                     <Col key={bike.name} xs={12} sm={6} md={4} lg={3}>
@@ -39,6 +43,10 @@ function Recommendation() {
                                     Licence: {bike.licence}
                                     <br />
                                     Price: {bike.price}
+                                    <br />
+                                    Displacement: {bike.displacement} {bike.unit}
+                                    <br />
+                                    Engine: {bike.engine || 'N/A'}
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -51,6 +59,8 @@ function Recommendation() {
                     </Col>)}
             </Row>
         </Container>
+        </div>
+        
     )
 }
 
