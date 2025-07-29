@@ -8,7 +8,8 @@
     "displacement": 373.2,
     "unit": "cm³",
     "engine": "1-cylinder, 4-stroke",
-    "image": "/images/pexels-abhinav-ktmadventure.jpg"
+    "image": "/images/pexels-abhinav-ktmadventure.jpg",
+    "image_author": "Abhinav"
   },
   {
     "name": "Kawasaki z900",
@@ -19,7 +20,8 @@
     "image": "/images/pairach-boriboonmee-z900.jpg",
     "displacement": 948,
     "unit":"cm³",
-    "engine": "4-cylinder"
+    "engine": "4-cylinder",
+    "image_author": "Pairach Boriboonmee"
   },
   {
     "name": "Kawasaki Ninja 500 SE",
@@ -30,7 +32,8 @@
     "image": "/images/joao-pedro-sconetto-kawasaki500.jpg",
     "displacement": 451,
     "unit":"cm³",
-    "engine": "2-cylinder"
+    "engine": "2-cylinder",
+    "image_author": "Joao Pedro Sconetto"
   },
   {
     "name": "Kawasaki ZX6R",
@@ -41,7 +44,8 @@
     "image": "/images/pairach-boriboonmee-bike.jpg",
     "displacement": 636,
     "unit":"cm³",
-    "engine": "4-cylinder"
+    "engine": "4-cylinder",
+    "image_author": "Pairach Boriboonmee"
   },
   {
     "name": "Yamaha MT-10",
@@ -52,7 +56,8 @@
     "image": "/images/josh-marshall-bike.jpg",
     "displacement": 998,
     "unit":"cm³",
-    "engine": "4-cylinders, 4-stroke"
+    "engine": "4-cylinders, 4-stroke",
+    "image_author": "Josh Marshall"
   },
   {
     "name": "Yamaha R3",
@@ -63,7 +68,8 @@
     "image": "/images/roman-zipp-yamahar3.jpg",
     "displacement": 321,
     "unit":"cm³",
-    "engine": "2-cylinder, 4-stroke"
+    "engine": "2-cylinder, 4-stroke",
+    "image_author": "Roman Zipp"
   },
   {
     "name": "KTM 390 Duke",
@@ -74,7 +80,8 @@
     "image": "/images/nandaperin-duke390.jpg",
     "displacement": 398.7,
     "unit":"cm³",
-    "engine": "1-cylinder, 4-stroke"
+    "engine": "1-cylinder, 4-stroke",
+    "image_author": "Nanda Perin"
   },
   {
     "name": "KTM 125 Duke",
@@ -85,7 +92,8 @@
     "image": "/images/pexels-jamphotography-ktm125.jpg",
     "displacement": 124.99,
     "unit":"cm³",
-    "engine": "1-cylinder, 4-stroke"
+    "engine": "1-cylinder, 4-stroke",
+    "image_author": "Jam Photography"
   },
   {
     "name": "Yamaha R7",
@@ -96,7 +104,8 @@
     "image": "/images/herve-papaux-bike.jpg",
     "displacement": 689,
     "unit":"cm³",
-    "engine": "4-stroke, 4-valves, inline two-cylinder"
+    "engine": "4-stroke, 4-valves, inline two-cylinder",
+    "image_author": "Herve Papaux"
   },
   {
     "name": "Honda CBR650R",
@@ -107,7 +116,8 @@
     "image": "/images/gelmis-bartulis-bike.jpg",
     "displacement": 649,
     "unit":"cm³",
-    "engine": "4-cylinders, 4-stroke"
+    "engine": "4-cylinders, 4-stroke",
+    "image_author": "Gelmis Bartulis"
   },
   {
     "name": "Honda CRF1100L Africa Twin",
@@ -118,7 +128,8 @@
     "image": "/images/pexels-hobi-hondaafrica.jpg",
     "displacement": 1084,
     "unit": "cm³",
-    "engine": "2-cylinder, 4-stroke"
+    "engine": "2-cylinder, 4-stroke",
+    "image_author": "Hobi"
   },
   {
     "name": "KTM 790 Duke",
@@ -129,7 +140,8 @@
     "image": "/images/gijs-coolen--ktm790.jpg",
     "displacement": 799,
     "unit":"cm³",
-    "engine": "2-cylinder, 4-stroke"
+    "engine": "2-cylinder, 4-stroke",
+    "image_author": "Gijs Coolen"
   },
   {
     "name": "KTM 1390 Super Duke R",
@@ -151,7 +163,12 @@
     "experience": "advanced",
     "price": 11899,
     "licence": "A",
-    "image": "/images/vaclav-pechar-bike.jpg"
+    "image": "/images/vaclav-pechar-bike.jpg",
+    "image_author": "Vaclav Pechar",
+    "displacement": 293.15,
+    "unit":"cm³",
+    "engine": "1-cylinder, 2-stroke"
+    
   }
    
 

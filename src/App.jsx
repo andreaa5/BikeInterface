@@ -14,15 +14,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
 
-  const bike_pictures = [
-    { url: './assets/images/gelmis-bartulis-bike.jpg', alt: "honda-cbr" },
-    { url: './assets/images/josh-marshall-bike.jpg', alt: "yamaha-mt10" },
-    { url: './assets/images/pairach-boriboonmee-bike.jpg', alt: "kawasaki-zx6r" },
-    { url: './assets/images/vaclav-pechar-bike.jpg', alt: "ktm-cross" },
-    { url: './assets/images/zakaria-zayane-bike.jpg', alt: "bmw" }
-  ]
-
-
 
   return (
 
@@ -35,8 +26,6 @@ function App() {
         <Route path='/gear' element={<Gear/>}/>
       </Routes>
     </main>
-      <Footer/>
-      
     </div>
   )
 }

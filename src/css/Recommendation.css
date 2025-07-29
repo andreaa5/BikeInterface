@@ -6,7 +6,6 @@
   background-blend-mode: 'multiply';
   min-height: 100vh;
   padding-top: 2rem;
-  padding-bottom: 2rem;
 
 }
 
@@ -57,6 +56,17 @@
   font-size: 1.2rem;
   line-height: 1.6;
 }
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.results-content {
+  flex: 1;
+}
+
 
 
 /* Animation for new favorites being added */

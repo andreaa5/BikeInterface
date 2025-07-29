@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Modal, Button } from 'react-bootstrap';
 import '../css/Footer.css';
 
-function Footer() {
+function Footer({ data }) {
     const [showModal, setShowModal] = useState(false);
 
     const handleClose = () => setShowModal(false);
@@ -24,20 +24,13 @@ function Footer() {
                 <Modal.Header closeButton>
                     <Modal.Title>Pictures from unsplash by:</Modal.Title>
                 </Modal.Header>
-                <Modal.Body>Gelmis Bartulis - Honda cbr
-                    <br />
-                    Josh Marshall - Yamaha mt10
-                    <br />
-                    Pairach Boriboonmee - Kawasaki zx6r
-                    <br />
-                    Vaclav Pechar - KTM cross
-                    {/*<br />
-                    Zakaria Zayane - BMW
-                    <br />*/}
-                    <br />
-                    Kheemo Jungco - Ducati Peningale V4
-                    <br />
-                    Entero Aprilia - Aprilia
+                <Modal.Body>
+                    {data.map((imageData) => (
+                        <div key={imageData.id}>
+                            {imageData.image_author} - {imageData.name}
+                            <br />
+                        </div>
+                    ))}
                 </Modal.Body>
                 <Modal.Footer>
             <Button variant="secondary" onClick={handleClose}>

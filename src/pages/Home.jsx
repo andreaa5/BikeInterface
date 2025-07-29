@@ -5,11 +5,20 @@ import Recommendation from './Recommendation'
 import NavBar from '../components/NavBar'
 import Image from '../assets/images/KheemoJungcoBike.jpg'
 import Form from '../components/Form'
+import Footer from '../components/Footer'
 import ControlledCarousel from '../components/Carousel'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function Home() {
+   const bike_pictures = [
+    { url: './assets/images/gelmis-bartulis-bike.jpg', alt: "honda-cbr", image_author: "Gelmis Bartulis", name: "Honda CBR650R" },
+    { url: './assets/images/josh-marshall-bike.jpg', alt: "yamaha-mt10", image_author: "Josh Marshall", name: "Yamaha MT-10" },
+    { url: './assets/images/pairach-boriboonmee-bike.jpg', alt: "kawasaki-zx6r", image_author: "Pairach Boriboonmee", name: "Kawasaki ZX-6R" },
+    { url: './assets/images/vaclav-pechar-bike.jpg', alt: "ktm-cross", image_author: "Vaclav Pechar", name: "KTM Cross" },
+    { url: './assets/images/zakaria-zayane-bike.jpg', alt: "bmw", image_author: "Zakaria Zayane", name: "BMW" }
+  ]
+
     return(
        <>
       <section className="custom-container" style={{ backgroundImage: `url(${Image})` }}>
@@ -28,7 +37,7 @@ function Home() {
           <ControlledCarousel />
         </div>
       </div>
-        
+        <Footer data={bike_pictures}/>
     </>
     )
     

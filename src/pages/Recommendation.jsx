@@ -2,8 +2,7 @@ import "../css/Recommendation.css"
 import { useLocation } from 'react-router-dom';
 import bikes from '../data/BikesData.json';
 import { Container, Row, Col, Card } from 'react-bootstrap';
-import Image from '/images/uomo-libero-bike.jpg';
-
+import Footer from '../components/Footer'
 
 
 function Recommendation() {
@@ -28,9 +27,10 @@ function Recommendation() {
     );
 
     return (
+        <>
         <div className="results-page">
-            <Container>
-            <Row className="gx-4 gy-4 justify-content-center align-items-center results-container">
+            <Container fluid className="page-wrapper">
+            <Row className="gx-4 gy-4 justify-content-center align-items-center results-container results-content">
                 {results.length > 0 ? (results.map((bike) => (
                     <Col key={bike.name} xs={12} sm={6} md={4} lg={3}>
                         <Card>
@@ -59,7 +59,14 @@ function Recommendation() {
                     </Col>)}
             </Row>
         </Container>
+        <footer className="footer-results">
+          <Footer data={results}/>
+        </footer>
         </div>
+        </>
+
+        
+        
         
     )
 }
