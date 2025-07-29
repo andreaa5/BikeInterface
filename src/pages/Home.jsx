@@ -3,7 +3,7 @@ import "../css/Home.css"
 import { Routes, Route } from "react-router-dom"
 import Recommendation from './Recommendation'
 import NavBar from '../components/NavBar'
-import Image from '../assets/images/KheemoJungcoBike.jpg'
+import Image from '/images/KheemoJungcoBike.jpg'
 import Form from '../components/Form'
 import Footer from '../components/Footer'
 import ControlledCarousel from '../components/Carousel'

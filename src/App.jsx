@@ -5,7 +5,7 @@ import Gear from './pages/Gear'
 import { Routes, Route } from "react-router-dom"
 import Recommendation from './pages/Recommendation'
 import NavBar from './components/NavBar'
-import Image from './assets/images/KheemoJungcoBike.jpg'
+import Image from '/images/KheemoJungcoBike.jpg'
 import Form from './components/Form'
 import ControlledCarousel from './components/Carousel'
 import Footer from './components/Footer'

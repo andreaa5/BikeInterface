@@ -5,7 +5,7 @@ function NavBar()
 {
     return <nav className="custom-navbar">
         <div className="custom-navbar-brand">
-          <Link to="/">Bike</Link>
+          <Link to="/">BikeFind</Link>
         </div>
         <div className="custom-navbar-links">
           <Link to="/" className="custom-navbar-links">Bike</Link>
