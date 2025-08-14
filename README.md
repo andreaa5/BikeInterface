@@ -13,3 +13,5 @@ Interface with input option for the bike type, licence and budget which determin
 
 ## Screenshot
 ![App Screenshot](./src/assets/bikeFindHome.png)
+![App Screenshot](./src/assets/bikeFindForm.png)
+![App Screenshot](./src/assets/bikeFindResult.png)
