@@ -1,12 +1,13 @@
-# React + Vite
+# BikeInterface
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interface with input option for the bike type, licence and budget which determines a recommendation for which bike would suit.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Input bike type (street, sport, adventure, motocross etc.) which will search through currently available data based on bike type and budget and licence. (*note: the current .json data does not contain all possible bikes)
+- Bike images for recommendation
+- Additional information provided for the recommended bike 
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
