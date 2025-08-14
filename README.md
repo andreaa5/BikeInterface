@@ -18,9 +18,15 @@ Interface with input option for the bike type, licence and budget which determin
 
 ---
 
-##Installation 
+## Installation 
 
 Clone the repo:
 ```bash
-git clone 
+git clone git@github.com:andreaa5/BikeInterface.git
 cd BikeInterface
+
+npm install
+
+npm run dev 
+
+
