@@ -28,5 +28,3 @@ cd BikeInterface
 npm install
 
 npm run dev 
-
-
