@@ -18,6 +18,9 @@ Interface with input option for the bike type, licence and budget which determin
 
 ---
 
+## To-do
+- [ ] Recommendation of protective gear based on input
+
 ## Installation 
 
 Clone the repo:
@@ -27,4 +30,5 @@ cd BikeInterface
 
 npm install
 
-npm run dev 
+npm run dev
+
